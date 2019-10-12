@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title class="iconfont">E宠购物车</title><link rel="stylesheet" href="../css/base.css"><link rel="stylesheet" href="../font_bq0f1y8w7ai/iconfont.css"><link rel="stylesheet" href="../iconfont02/iconfont.css"><link rel="stylesheet" href="../css/list.css"><link rel="stylesheet" href="../css/right.nav.css"><link rel="stylesheet" href="../css/cart.css"><link rel="stylesheet" href="../css/carts.css"><link rel="stylesheet" href="../css/reset.css"><style>.icon{width:1em;height:1em;vertical-align:-.15em;fill:currentColor;overflow:hidden}.main .cart_content .bar-wrapper .bar-right .delete{width:40px;height:20px;border:1px solid #ccc;line-height:20px;text-align:center;background:#ccc;border-radius:5px;cursor:pointer}.main .cart_content .bar-wrapper .bar-right .delete:hover{background:red}</style></head><body><div id="e_petnet" class="e_petnet"><div class="e_content"><div class="header"><div class="h_left"><p class="back_homepage iconfont icon-shouye" title="去往首页">E宠首页</p><p class="send_address">送至： <select name="" id=""><option value="">广西</option><option value="">广州</option><option value="">大理</option><option value="">昭通</option><option value="">南宁</option></select></p><p class="intro">E宠就是正品</p></div><div class="h_right"><ul class=""><li class="right_li iconfont icon-iconfontunie62c">新消息</li><li class="right_li iconfont icon-gouwuche">购物车(<span class="shopping_num" style="color:red">0</span> )</li><li class="right_li iconfont icon-gerentouxiang right_lili">我的E宠<ul class="lili"><li class="wo_list">.我的订单</li><li class="wo_list">.退换货记录</li><li class="wo_list">.我的优惠券</li><li class="wo_list">.我的余额</li><li class="wo_list">.VIP俱乐部</li></ul></li><li class="right_li iconfont icon-star">收藏</li><li class="right_li mobile_app"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-shouji"></use></svg>手机版</li><li class="right_li question">问题反馈</li></ul></div></div><div class="nav"><div class="nav_top"><ul><li class="nav_left"><img src="../images/logo.png" alt=""></li><li class="nav_center"><p><input type="text" placeholder="搜你所爱" name="search" class="search search_ipt"> <input type="button" value="搜索" id="search" class="search search_btn"></p></li></ul></div></div><div class="main"><div class="cart_menu"><div class="c_menu c_menu1 active">E宠购物车</div><div class="c_menu c_menu2">E宠国际购物车</div><div class="c_menu c_menu3">我的收藏</div><div class="c_menu c_menu4">我购买过</div><div class="c_menu c_menu5">最近浏览</div></div><div class="zhongjian" style="width:1200px"><div class="cart_content" id="zuji1" style="display:block"><section class="cartMain"><div class="cartMain_hd"><ul class="order_lists cartTop"><li class="list_chk"><input type="checkbox" id="all" class="whole_check"> 全选</li><li class="list_con">商品信息</li><li class="list_price">单价</li><li class="list_amount">数量</li><li class="list_sum">金额</li><li class="list_op">操作</li></ul></div><div class="allCartBox"></div><div class="bar-wrapper"><div class="bar-left" title="去往首页">继续购物</div><div class="bar-right"><div class="delete fl">删除</div><div class="piece">已选商品<strong class="piece_num">0</strong>件</div><div class="totalMoney">共计: <strong class="total_text">0.00</strong></div><div class="calBtn"><a href="javascript:;">结算</a></div></div></div></section><section class="model_bg"></section><section class="my_model"><p class="title">删除宝贝<span class="closeModel">X</span></p><p>您确认要删除该宝贝吗？</p><div class="opBtn"><a href="javascript:;" class="dialog-sure">确定</a><a href="javascript:;" class="dialog-close">关闭</a></div></section></div><div class="zuji" id="zuji" style="display:none"><div class="zujitou"><span class="tou1">商品信息</span><p class="tou2">现价（元）</p><em class="tou3">操作</em></div><ul class="zujilie" id="zujilie"></ul></div></div></div><div class="footer"><iframe width="102%" height="105%" id="content" src="../footer.html" frameborder="0"></iframe></div></div><div class="side_nav"><div id="rightside" class="rightside"><ul class="right_up"><li class="person_info" title="个人信息"></li><li class="shopping_car" title="购物车"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-gouwuche "></use></svg> 购物车 <span class="suliang">(0)</span></li><li class="online_serve" title="在线服务"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-gerentouxiang "></use></svg> 在线客服</li><li class="order_form" title="订单详情"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-iconfontunie62c
+                                    "></use></svg></li><li class="collector" title="收藏夹"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-star "></use></svg></li></ul><ul class="right_down"><li class="phone_app" title="手机端APP下载"></li><li class="weixin" title="进入微信"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-weixin "></use></svg></li><li class="weibo" title="进入微博"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-logo-weibo
+                                    "></use></svg></li><li class="back_top" title="回到顶部"><div class="hui">回到顶部</div></li></ul></div></div></div></body><script src="../font_bq0f1y8w7ai/iconfont.js"></script><script src="../iconfont02/iconfont.js"></script><script src="../js/jquery-1.10.1.min.js"></script><script src="../js/common.js"></script><script src="../js/carts.js"></script><script src="../js/cookie.js"></script><script>(() => {
+        //选项卡
+        $('.c_menu').mouseover(function () {
+            // 高亮反向
+            $(this).attr('class', 'c_menu active').siblings().attr('class', 'c_menu');
+        });
+        let zhuji = document.getElementById('zujilie');
+        console.log(zhuji)
+        // 渲染足迹
+        function init() {
+            let goodlist = localStorage.goodlist; //字符串 3&2&1
+            let dat = goodlist.split('&').reverse(); //[3,2,1]
+            console.log(dat);
+            for (let item of dat) {
+                //item:足迹存起来的id
+                // 发送请求
+                ajax({
+                    type: 'get',
+                    url: '../api/getpage.php',
+                    data: {
+                        id: item
+                    },
+                    dataType: 'json', //数据类型
+                    success: str4 => {
+                        let arr = JSON.parse(str4);
+                        console.log(arr);
+                        console.log(item)
+                        let html = arr.data.map(item => {
+                            return ` <li><img src="${item.bigimg}" class="tupian" alt="">
+                            <a href="" class="neirong">${item.title}</a><span class="qian">￥${item.xianjia}</span>
+                            <p class="caozuo">加入购物车</p>
+                             </li>`;
+
+                        }).join('');
+                        zhuji.innerHTML += html;
+                    }
+                })
+
+            }
+
+        }
+        init();
+        let c_menu5 = document.getElementsByClassName('c_menu5')[0];
+        let c_menu1 = document.getElementsByClassName('c_menu1')[0];
+        let cart_content = document.getElementsByClassName('cart_content')[0];
+        let zuji = document.getElementsByClassName('zuji')[0];
+
+        c_menu1.onmouseover = () => {
+            cart_content.style.display = 'block';
+            zuji.style.display = 'none';
+            console.log(888)
+        }
+        c_menu5.onmouseover = () => {
+            cart_content.style.display = 'none';
+            zuji.style.display = 'block';
+            console.log(888)
+        }
+    })();</script></html>

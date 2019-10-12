@@ -1,0 +1,741 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.e_petnet {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    background: #f5f5f5;
+}
+
+.e_petnet .e_content {
+    margin: auto;
+    width: 95%;
+    height: auto;
+}
+
+.e_petnet .e_content .header {
+    width: 1333px;
+    height: 29px;
+    background: #f5f5f5;
+    color: #666666;
+    border-bottom: 1px solid #ccc;
+}
+
+.e_petnet .e_content .header .h_left {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    float: left;
+    margin-left: 30px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.e_petnet .e_content .header .h_left .back_homepage {
+    width: 65px;
+    font-size: 12px;
+}
+
+.e_petnet .e_content .header .h_left .back_homepage:hover {
+    color: #195;
+    cursor: pointer;
+}
+
+.shang img {
+    width: 1200px;
+}
+
+.e_petnet .e_content .header .h_left .send_address {
+    width: 120px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.e_petnet .e_content .header .h_left .intro {
+    width: 95px;
+}
+
+.e_petnet .e_content .header .h_left .intro:hover {
+    color: #f84903;
+    cursor: pointer;
+}
+
+.e_petnet .e_content .header .h_right {
+    float: right;
+    width: 700px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.e_petnet .e_content .header .h_right ul {
+    display: flex;
+}
+
+.e_petnet .e_content .header .h_right ul .right_li {
+    width: 78px;
+    font-size: 12px;
+}
+
+.e_petnet .e_content .header .h_right ul .right_lili .lili {
+    width: 100px;
+    height: 100px;
+    background: #f5f5f5;
+    display: none;
+    box-shadow: 0 0 5px 3px #666666;
+}
+
+.e_petnet .e_content .header .h_right ul .right_lili .lili .wo_list {
+    width: 100%;
+    height: 20px;
+}
+
+.e_petnet .e_content .header .h_right ul .mobile_app i {
+    width: 13px;
+    height: 13px;
+    background: url(../images/bg.png) no-repeat;
+    background-position: -334px -46px;
+    background-repeat: no-repeat;
+    margin-top: 6px;
+    float: left;
+}
+
+.e_petnet .e_content .header .h_right ul .right_lili:hover .lili {
+    color: #195;
+    display: block;
+    cursor: pointer;
+}
+
+.e_petnet .e_content .header .h_right ul .right_li:hover {
+    color: #195;
+    cursor: pointer;
+}
+
+.e_petnet .e_content .header .h_right ul .question {
+    color: red;
+}
+
+.e_petnet .e_content .header .h_right ul .question:hover {
+    color: #195;
+    cursor: pointer;
+}
+
+.e_petnet .e_content .nav {
+    width: 1333px;
+    height: auto;
+    background: #f5f5f5;
+}
+
+.e_petnet .e_content .nav .nav_top {
+    width: 100%;
+    height: 110px;
+}
+
+.e_petnet .e_content .nav .nav_top ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.e_petnet .e_content .nav .nav_top ul .nav_left {
+    width: 268px;
+    height: 104px;
+    text-align: center;
+    line-height: 104px;
+}
+
+.e_petnet .e_content .nav .nav_top ul .nav_left img {
+    padding-left: 36px;
+    width: 200px;
+    height: 94px;
+}
+
+.e_petnet .e_content .nav .nav_top ul .nav_center {
+    width: 498px;
+    height: 71x;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.e_petnet .e_content .nav .nav_top ul .nav_center .search {
+    height: 30px;
+    border: 2px solid green;
+    color: white;
+}
+
+.e_petnet .e_content .nav .nav_top ul .nav_center .search_ipt {
+    width: 340px;
+}
+
+.e_petnet .e_content .nav .nav_top ul .nav_center .search_btn {
+    background: green;
+    width: 40px;
+}
+
+.e_petnet .e_content .nav .nav_top ul .nav_center .search_hot {
+    margin-top: 10px;
+}
+
+.e_petnet .e_content .nav .nav_top ul .nav_center .search_hot a {
+    width: 20%;
+    color: #424141;
+    font-size: 12px;
+}
+
+.e_petnet .e_content .nav .nav_top ul .nav_right {
+    width: 160px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    border: 1px solid #d8d6d6;
+    border-radius: 10px;
+    position: absolute;
+    right: 90px;
+    top: 30px;
+}
+
+.e_petnet .e_content .nav .nav_top ul .nav_right p {
+    font-size: 24px;
+}
+
+.e_petnet .e_content .nav .nav_bottom {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    position: relative;
+}
+
+.e_petnet .e_content .nav .nav_bottom .btm_left {
+    box-sizing: border-box;
+    height: 44px;
+    display: flex;
+    padding-top: 6px;
+    padding-left: 5px;
+}
+
+.e_petnet .e_content .nav .nav_bottom .btm_left .btm_list {
+    width: 114px;
+    height: 34px;
+    border: 1px solid #ccc;
+    background: white;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.e_petnet .e_content .nav .nav_bottom .btm_left .btm_list a {
+    color: #000;
+}
+
+.e_petnet .e_content .nav .nav_bottom .btm_left .active {
+    background: #f84903;
+    color: white;
+}
+
+.e_petnet .e_content .nav .nav_bottom .btm_right {
+    display: flex;
+    flex: 1;
+    height: 44px;
+    line-height: 44px;
+}
+
+.e_petnet .e_content .nav .nav_bottom .btm_right .btm_list {
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.e_petnet .e_content .nav .nav_bottom .btm_right .btm_list img {
+    margin-left: 20px;
+    width: 100px;
+    height: 34px;
+}
+
+.e_petnet .e_content .nav .nav_bottom .btm_right .btmlist:hover {
+    color: #195;
+}
+
+.e_petnet .e_content .main {
+    width: 1200px;
+    height: auto;
+}
+
+.e_petnet .e_content .main .goods_page {
+    width: 1200px;
+    height: 628px;
+    background: white;
+    display: flex;
+    /* ...........放大镜插入部分........................................ */
+    /* ..................................................... */
+    /* .................................................................. */
+    /* #MagnifierWrap{position: relative;width: 350px;margin:100px auto;} */
+    /* 。。。。。。。。。大图。。。。。。。。。。。。。。。 */
+    /* 。。。。。。。。。。遮罩。。。。。。。。 */
+    /* 。。。。。。。。。。。。右边放大倍数。。。。。。。。。。。。。 */
+    /* ..............小图列表.............. */
+    /* 。。。。。。。。小图。。。。。。。。。。。。。 */
+    /* 。。。。。。。。。。。。。高亮。。。。。。。。。。。。。。 */
+    /* 。。。。。。。。。左右按钮。。。。。。。。。。。。。 */
+    /* ...................下面的提示信息............................ */
+    /* ....................................................................... */
+    /* ......................................................... */
+}
+
+.e_petnet .e_content .main .goods_page img {
+    vertical-align: top;
+    border: 0;
+}
+
+.e_petnet .e_content .main .goods_page #MagnifierWrap2 {
+    position: relative;
+    width: 350px;
+    margin: 50px 30px 30px 30px;
+}
+
+.e_petnet .e_content .main .goods_page .MagnifierMain {
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+.e_petnet .e_content .main .goods_page .MagnifierMain img {
+    width: 100%;
+}
+
+.e_petnet .e_content .main .goods_page .MagnifierDrag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ccc;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    cursor: move;
+}
+
+.e_petnet .e_content .main .goods_page .MagnifierPop {
+    position: absolute;
+    top: 0;
+    left: 380px;
+    overflow: hidden;
+    background: #fff;
+    width: 350px;
+    height: 350px;
+}
+
+.e_petnet .e_content .main .goods_page .MagnifierImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.e_petnet .e_content .main .goods_page .spec-items {
+    position: relative;
+    width: 292px;
+    height: 69px;
+    overflow: hidden;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.e_petnet .e_content .main .goods_page .spec-items ul {
+    width: 500%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.e_petnet .e_content .main .goods_page .spec-items ul * {
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.e_petnet .e_content .main .goods_page .spec-items li {
+    width: 65px;
+    height: 65px;
+    float: left;
+    overflow: hidden;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.e_petnet .e_content .main .goods_page .spec-items li.on {
+    border: 1px solid #195;
+}
+
+.e_petnet .e_content .main .goods_page .spec-items li img {
+    width: 100%;
+}
+
+.e_petnet .e_content .main .goods_page span.spe_leftBtn,
+.e_petnet .e_content .main .goods_page span.spe_rightBtn {
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 20px;
+    height: 69px;
+    line-height: 69px;
+    font-family: "黑体";
+    text-align: center;
+    font-size: 30px;
+    color: #ddd;
+    cursor: default;
+    background-color: #d6d0d0;
+}
+
+.e_petnet .e_content .main .goods_page span.on {
+    background-color: #ccc;
+    color: #999;
+    cursor: pointer;
+}
+
+.e_petnet .e_content .main .goods_page span.spe_leftBtn {
+    left: 0;
+}
+
+.e_petnet .e_content .main .goods_page span.spe_rightBtn {
+    right: 0;
+}
+
+.e_petnet .e_content .main .goods_page .p_tips {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.e_petnet .e_content .main .goods_page .p_tips span:nth-child(1) {
+    color: #666;
+}
+
+.e_petnet .e_content .main .goods_page .page_right {
+    width: 748px;
+    height: 628px;
+    background: #ecf0eb;
+    padding-left: 20px;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .gdtitle {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdinfo {
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 8px;
+    display: inline-block;
+    background: #ccc;
+    margin-bottom: 8px;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdprice {
+    width: 660px;
+    height: 80px;
+    background: #dbdada;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdprice p {
+    height: 50%;
+    font-size: 12px;
+    color: #666;
+    line-height: 40px;
+    text-align: left;
+    width: 80%;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdprice p span {
+    color: red;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdattr {
+    display: flex;
+    margin: 16px 0;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdattr p {
+    margin-right: 25px;
+    color: #555353;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdattr p span {
+    color: red;
+    font-size: 16px;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gd {
+    font-size: 14px;
+    margin: 16px 0;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 6px;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gd span {
+    display: inline-block;
+    width: 80px;
+    height: 16px;
+    line-height: 16px;
+    text-align: left;
+    border-right: 1px solid #666;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gd span:nth-child(3) {
+    border-right: none;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdguige {
+    font-size: 14px;
+    color: #666;
+    height: 16px;
+    margin: 16px 0;
+    display: flex;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdguige span {
+    display: inline-block;
+    border: 1px dashed #a38686;
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdnum {
+    font-size: 14px;
+    color: #666;
+    margin: 16px 0;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdnum span {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border: 1px solid #928c8c;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdnum span .num11 {
+    display: inline-block;
+    width: 17px;
+    height: 26px;
+    background: #58bc58;
+    text-align: center;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdnum span .nownum {
+    margin: 0 0;
+    width: 54px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdsend {
+    font-size: 14px;
+    color: #666;
+    height: 20px;
+    margin: 12px 0;
+    width: auto;
+    text-align: left;
+    line-height: 20px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 6px;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdsend option {
+    border: 1px solid #ccc;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdsend .tips {
+    display: inline-block;
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.e_petnet .e_content .main .goods_page .page_right .r_gdaddcar {
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    background: #05b130;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 60px;
+    border-radius: 6px;
+}
+
+.e_petnet .e_content .goods_info {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.e_petnet .e_content .goods_info .info_left {
+    width: 20%;
+    height: 812px;
+}
+
+.e_petnet .e_content .goods_info .info_left .il_ad {
+    background: #ca5656;
+}
+
+.e_petnet .e_content .goods_info .info_left .il_ad img {
+    width: 100%;
+    height: 200px;
+}
+
+.e_petnet .e_content .goods_info .info_right {
+    margin-left: 20px;
+    width: 80%;
+    height: auto;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_nav {
+    width: 100%;
+    height: 62px;
+    background: #e0e0e0;
+    position: sticky;
+    /* 粘性定位 */
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_nav ul {
+    display: flex;
+    background: #e0e0e0;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_nav ul .ir_con {
+    width: 120px;
+    height: 100%;
+    border: 1px solid #928888;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 4px;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_nav ul .ir_active {
+    border-top: 2px solid #195;
+    border-bottom: 1px solid white;
+    background: #fff;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_nav .fix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #888;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_changecord {
+    border: 1px solid #888787;
+    width: 100%;
+    background: #53a4e6;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_changecord .ir_cords .ir_cord {
+    width: 100%;
+    height: auto;
+    background: white;
+    display: none;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_changecord .ir_cords .ir_active {
+    display: block;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_changecord .ir_cords .ir_cord1 {
+    width: 100%;
+    height: auto;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_changecord .ir_cords .ir_cord1 p {
+    width: 100%;
+    height: 390px;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_changecord .ir_cords .ir_cord1 p img {
+    width: 100%;
+    height: 390px;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_changecord .ir_cords .ir_cord1 .ir_cons {
+    width: 100%;
+    height: 300px;
+    background: #ccc;
+    padding-top: 20px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_changecord .ir_cords .ir_cord1 .ir_cons h2 {
+    color: red;
+    font-size: 18px;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_changecord .ir_cords .ir_cord2 img {
+    width: 800px;
+    height: 800px;
+    border: 1px dashed #ccc;
+    margin: 80px 0 50px 80px;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_changecord .ir_cords .ir_cord5 {
+    width: 100%;
+    background: #fff;
+    padding-bottom: 20px;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_changecord .ir_cords .ir_cord5 h1 {
+    font-size: 24px;
+    margin-top: 20px 0 0 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.e_petnet .e_content .goods_info .info_right .ir_changecord .ir_cords .ir_cord5 img {
+    width: 700px;
+    height: 600px;
+    margin-left: 140px;
+    padding-top: 50px;
+}
+
+.e_petnet .e_content .footer {
+    width: 100%;
+    height: 450px;
+}
+
+.e_petnet .side_nav {
+    width: 35px;
+    height: 618px;
+    background: rgba(185, 179, 179, 0.603);
+    position: fixed;
+    right: 0;
+    top: 0;
+}

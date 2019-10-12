@@ -1,0 +1,266 @@
+.main {
+  height: auto;
+  width: 500px;
+  background: white;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main .cart_menu {
+  width: 1200px;
+  height: 36px;
+  background: white;
+  display: flex;
+  border-bottom: 1px solid #666;
+}
+
+/* 高亮 */
+.main .cart_menu .active {
+  background: #195;
+}
+
+.main .cart_menu .c_menu {
+  width: 194px;
+  height: 36px;
+  padding: 0 30px;
+  border-right: 1px solid #666;
+  line-height: 36px;
+  text-align: center;
+}
+
+.main .cart_menu .c_menu5 {
+  border-right: none;
+}
+
+/* 足迹盒子样式 */
+.main .zuji {
+  width: 1200px;
+  height: auto;
+
+}
+
+.zuji .zujitou {
+  height: 48px;
+  width: 100%;
+  background: #dddddd;
+  display: flex;
+  line-height: 48px;
+}
+
+.zuji .zujitou .tou1 {
+  flex: 3;
+  margin-left: 10px;
+}
+
+.zuji .zujitou .tou2 {
+  flex: 1;
+}
+
+.zuji .zujitou .tou3 {
+  flex: 1;
+}
+
+.zuji .zujilie li {
+  width: 1200px;
+  height: 106px;
+  border-bottom: 1px solid #e4e4e4;
+  display: flex;
+  align-items: center;
+}
+
+.zuji .zujilie li .tupian {
+  width: 82px;
+  height: 82px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+
+}
+
+.zuji .zujilie li .neirong {
+  flex: 2;
+  margin-left: 50px;
+}
+
+.zuji .zujilie li .qian {
+  flex: 1.2;
+}
+
+.zuji .zujilie li .caozuo {
+  width: 80px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #d7d7d7;
+  margin-right: 58px;
+}
+
+
+
+
+/* 购物车盒子样式 */
+.main .cart_content {
+  width: 1200px;
+  height: auto;
+}
+
+.main .cart_content table {
+  width: 100%;
+  height: auto;
+}
+
+.main .cart_content table tbody tr {
+  width: 1200px;
+  height: 110px;
+  border: 1px solid #666;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.main .cart_content table tbody tr .co_td1 {
+  width: 50px;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  line-height: 80px;
+  text-align: center;
+}
+
+.main .cart_content table tbody tr .co_td1 .danxuan {
+  width: 13px;
+  height: 13px;
+}
+
+.main .cart_content table tbody tr .co_td2 {
+  width: 500px;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.main .cart_content table tbody tr .co_td2 .img {
+  width: 82px;
+  height: 82px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.main .cart_content table tbody tr .co_td2 .img img {
+  width: 80px;
+  height: 80px;
+}
+
+.main .cart_content table tbody tr .co_td2 .co_con {
+  width: 310px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  line-height: 26px;
+  text-align: left;
+}
+
+
+
+.main .cart_content table tbody tr .co_td3 {
+  width: 150px;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.main .cart_content table tbody tr .co_td3 p {
+  display: flex;
+  width: 78px;
+  height: 22px;
+  text-align: center;
+  margin: 30px 0 0 30px;
+  border: 1px solid #8d8b8b;
+}
+
+.main .cart_content table tbody tr .co_td3 p .coo {
+  width: 13px;
+  height: 100%;
+  display: inline-block;
+}
+
+.main .cart_content table tbody tr .co_td3 p .shop_num {
+  width: 45px;
+  height: 100%;
+  line-height: 22px;
+  text-align: center;
+}
+
+.main .cart_content table tbody tr .co_td4 {
+  width: 200px;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.main .cart_content table tbody tr .co_td4 p {
+  width: 100%;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.main .cart_content table tbody tr .co_td5 {
+  width: 200px;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.main .cart_content table tbody tr .co_td5 p {
+  width: 50px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.main .cart_content table tbody .cart_total {
+  margin-top: 20px;
+  background: #ccc;
+  border: none;
+  border-radius: 10px;
+}
+
+.main .cart_content table tbody .cart_total .cart_total2 {
+  width: 1200px;
+  height: 40px;
+  padding: 30px 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main .cart_content table tbody .cart_total .cart_total2 .c_fl {
+  display: flex;
+}
+
+.main .cart_content table tbody .cart_total .cart_total2 .c_fl p {
+  padding-left: 15px;
+}
+
+.main .cart_content table tbody .cart_total .cart_total2 .c_fr {
+  display: flex;
+}
+
+.main .cart_content table tbody .cart_total .cart_total2 .c_fr .go_price {
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.main .cart_content table tbody .cart_total .cart_total2 .c_fr .go_jiesuan {
+  width: 120px;
+  height: 60px;
+  background: #195;
+  line-height: 60px;
+  text-align: center;
+  margin: 0 20px;
+  border-radius: 10px;
+}

@@ -1,0 +1,1 @@
+"use strict";!function(){var e=document.getElementById("time1"),t=document.getElementById("time2"),n=document.getElementsByClassName("menubox")[0],o=n.getElementsByClassName("ii")[0],l=0;e.onclick=function(){l-=119,startMove(n,{left:l}),startMove(o,{left:-l}),-238<=l&&(l=0)},t.onclick=function(){l+=l,startMove(n,{left:l}),startMove(o,{left:l}),l<=238&&(l=0),console.log(l)}}();

@@ -1,0 +1,1 @@
+"use strict";!function(){var o=document.getElementsByClassName("ir_changes")[0];console.log(o),window.onscroll=function(){var n=window.scrollY;o.className=1200<=n?"fix":""}}();
